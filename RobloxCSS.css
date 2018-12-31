@@ -1,0 +1,96 @@
+/* Roblox CSS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+    * {
+      font-family: "Montserrat";
+      box-sizing: border-box;
+    }
+    body {
+      margin:0; 
+    }
+    header {
+      background-color: #000000;
+      background-image: url("rbxbanner.png");
+      background-size: cover;
+      padding: 75px;
+    }
+    footer {
+      background-color: #000000;
+      color:white;
+      font-size: 20px;
+      clear:both;
+      padding:20px;
+      text-align:center;
+    }
+    #content {
+      max-width: 800px;
+      margin: 0 auto;
+	    padding: 60px 0;
+    }
+    p {
+      line-height:20px; 
+    }
+    .container {
+      margin-left:16px;  
+    }
+    .container h2{
+     color:gray; 
+    }
+    ul {
+    list-style-type: circle;
+    }
+    span {
+      color:rgba(128,128,128,0.5);
+    }
+    .button {
+    background-color: #5bd660; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.6s;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all 0.5s;
+    }
+    .button:hover {
+      background-color: #4dee53;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: inherit;
+    }
+    .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+    .button:hover span {
+      padding-right: 25px;
+    }
+    .button:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+    #submit {
+      border: none;
+      background: red;
+      color:darkred;
+      font-size: 15px;
+      border-radius: 5px;
+    }
+    #password {
+      background: black;
+      color:#a600d2;
+    }
