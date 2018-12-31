@@ -26,6 +26,9 @@
       margin: 0 auto;
 	    padding: 60px 0;
     }
+    a {
+      color:purple;
+    }
     p {
       line-height:20px; 
     }
